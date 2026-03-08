@@ -1,0 +1,9 @@
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-silero
+python-dotenv
+livekit-api
+fastapi
+uvicorn[standard]
+python-multipart  # Recommended for handling any form data or file uploads if needed
+mysql-connector-python  # MySQL database connector

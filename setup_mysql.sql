@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS auto_db;
+CREATE USER IF NOT EXISTS 'autoapp'@'localhost';
+GRANT ALL PRIVILEGES ON auto_db.* TO 'autoapp'@'localhost';
+FLUSH PRIVILEGES;
